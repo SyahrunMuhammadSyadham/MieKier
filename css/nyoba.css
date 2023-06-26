@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+:root {
+  --yellow: #ffd600;
+  --black: #000000;
+  --blue: #034aff;
+  --white: #ffffff;
+  --grey: rgba(255, 255, 255, 0.8);
+}
+
+*, html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  scrollbar-width: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+main .catatan {
+  padding: 0px;
+  width: 100%;
+  padding: 0px;
+}
+main .card-level {
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 50px;
+}
+.barkuninglvl {
+  background: var(--yellow);
+  border-radius: 30px;
+  width: 180px;
+  height: 47px;
+  position: absolute;
+  left: 877px;
+  top: 846px;
+  padding: 0px 0px;
+  margin: 0px 20px;
+  position: absolute;
+  box-sizing: border-box;
+  box-shadow: var(--black);
+}
+.level2 {
+  color: #000000;
+  text-align: center;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 889px;
+  top: 852px;
+}
+.component-2 {
+  width: 80px;
+  height: 40.68px;
+  position: absolute;
+  left: 967px;
+  top: 850px;
+}
+._0 {
+  color: #000000;
+  text-align: center;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 34px;
+  top: 6px;
+  width: 9.49px;
+  height: 40.68px;
+}
+.ellipse-2 {
+  background: #000000;
+  border-radius: 50%;
+  width: 28.47px;
+  height: 28.47px;
+  position: absolute;
+  left: 0px;
+  top: 6.1px;
+}
+.ellipse-3 {
+  background: #000000;
+  border-radius: 50%;
+  width: 28.47px;
+  height: 28.47px;
+  position: absolute;
+  left: 51.53px;
+  top: 6.1px;
+}
+.line-2 {
+  position: absolute;
+  left: 54.24px;
+  top: 20.34px;
+  transform: translate(0px, -1.5px);
+  overflow: visible;
+}
+.line-1 {
+  position: absolute;
+  left: 2.71px;
+  top: 20.34px;
+  transform: translate(0px, -1.5px);
+  overflow: visible;
+}
+.line-3 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px 0 0 0;
+  width: 23.73px;
+  height: 0px;
+  position: absolute;
+  left: 65.08px;
+  top: 8.81px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.tmbhkeranjang {
+  width: 284px;
+  height: 47px;
+  position: static;
+}
+.barkuningkrjg {
+  background: #ffb800;
+  border-radius: 30px;
+  width: 284px;
+  height: 47px;
+  position: absolute;
+  left: 1074px;
+  top: 844px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.component-22 {
+  width: 80px;
+  height: 40.68px;
+  position: absolute;
+  left: 1087px;
+  top: 848px;
+}
+.line-22 {
+  position: absolute;
+  left: 54.24px;
+  top: 20.34px;
+  transform: translate(0px, -1.5px);
+  overflow: visible;
+}
+.line-12 {
+  position: absolute;
+  left: 2.71px;
+  top: 20.34px;
+  transform: translate(0px, -1.5px);
+  overflow: visible;
+}
+.barputihkrjg {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 136px;
+  height: 35px;
+  position: absolute;
+  left: 1212px;
+  top: 851px;
+}
+.tambah-keranjang {
+  color: #ffb800;
+  text-align: center;
+  font: 500 13px "Poppins", sans-serif;
+  position: absolute;
+  left: 1216px;
+  top: 858px;
+}
+.catatan2 {
+  width: 481px;
+  height: 47px;
+  position: static;
+}
+.barkuningcatatan {
+  background: #ffb800;
+  border-radius: 30px;
+  width: 481px;
+  height: 47px;
+  position: absolute;
+  left: 877px;
+  top: 936px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.barputihcatatan {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 467px;
+  height: 35px;
+  position: absolute;
+  left: 883px;
+  top: 942px;
+}
+.silahkan-tambahkan-catatan {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font: 500 13px "Poppins", sans-serif;
+  position: absolute;
+  left: 889px;
+  top: 950px;
+}
+.catatan3 {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: absolute;
+  left: 889px;
+  top: 910px;
+}

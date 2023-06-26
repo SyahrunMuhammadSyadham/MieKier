@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+:root {
+    --yellow:#FFD600;
+    --black:#000000;
+    --blue:#034AFF;
+    --white:#FFFFFF;
+    --grey:rgba(255, 255, 255, 0.8);
+    
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/img/BgHome.svg);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
+.image {
+    margin-left: -50px;
+}
+
+.image img {
+    margin-top: -220px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -150px;
+    position: relative;
+}
+
+.bahasa {
+    position: fixed;
+    margin-top: -650px;
+    margin-left: 400px;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: var(--grey);
+}
+
+.container-hero .button-buka {
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.container-hero .button-buka span {
+    color: #034AFF;
+}
+
+.container-hero h1 {
+    font-weight: bolder;
+}
+
+.container-hero a span{
+    color: var(--yellow);
+}
+
+.container-hero p {
+    text-align: center;
+}
+.container-hero h3 {
+    font-weight: bolder;
+    color: var(--yellow);
+}
+
+.container .button-beli {
+    margin-top: 30px;
+}
+
+.container .button-beli .button-click {
+    width: 200px;
+    border-radius: 30px;
+    background-color: var(--grey);
+    color: var(--black);
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 2px;
+    border: 0px;
+}
+
+.content {
+    margin: 30px;
+}
+

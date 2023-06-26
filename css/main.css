@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+:root {
+  --yellow: #ffd600;
+  --black: #000000;
+  --blue: #034aff;
+  --white: #ffffff;
+  --grey: rgba(255, 255, 255, 0.8);
+}
+
+*, html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  scrollbar-width: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+main .nav {
+  width: 100%;
+  background-color: var(--yellow);
+}
+main .nav .search {
+  display: flex;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 30px;
+}
+main .nav .search button.submit {
+  width: 500px;
+  padding: 0px 8px;
+  display: flex;
+  text-align: start;
+  height: 40px;
+  align-items: center;
+  border: 0px;
+  border-radius: 30px;
+}
+main .nav .search button.submit p {
+  margin-top: 18px;
+}
+main .nav .search button.submit .icon-cari {
+  border-radius: 20px;
+  background-color: var(--yellow);
+  width: 60px;
+  height: 80%;
+}
+main .nav .search button.submit .icon-cari img {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+main .nav .nav-atas a {
+  padding: 15px;
+}
+main .nav2 {
+  background-color: #000000;
+}
+main .nav2 .nav-bawah nav ul {
+  display: flex;
+}
+main .nav2 .nav-bawah nav ul li {
+  height: 85%;
+  margin-top: 10px;
+  list-style: none;
+}
+main .nav2 .nav-bawah nav ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  background-color: var(--white);
+  padding: 3px 40px;
+  border-radius: 30px;
+}
+main .nav3 {
+  position: fixed;
+  border: 1px solid var(--black);
+  width: 250px !important;
+  margin-top: -20px;
+  max-height: 310px !important;
+  background-color: var(--yellow) !important;
+  margin-left: -300px;
+  z-index: 9999;
+}
+main .nav3 .image {
+  background-color: var(--black) !important;
+}
+main .nav3 ul li {
+  list-style: none !important;
+  border-bottom: 1px solid black !important;
+  margin-left: -32px;
+  padding: 20px 0px !important;
+  display: flex;
+  justify-content: center;
+}
+main .nav3 ul li a {
+  text-decoration: none !important;
+  color: black;
+  font-weight: bolder !important;
+  font-size: 20px !important;
+}
+main .activeNav {
+  margin-left: 0px;
+  transition: all 0.5s;
+}
+main .container-iklan {
+  padding: 20px;
+}
+main .container-iklan .iklan {
+  margin: 0px 10px;
+}
+main h2 {
+  padding-left: 30px;
+  color: var(--black);
+}
+main .container-product {
+  padding: 10px;
+  width: 100%;
+  overflow: scroll;
+  margin-bottom: 50px;
+}
+main .container-product .cards {
+  width: -moz-max-content;
+  width: max-content;
+}
+main .container-product .cards .card {
+  background-color: var(--yellow);
+  border: 0px;
+  padding: 0px 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+  color: var(--black);
+}
+main .container-product .cards .card .image {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+main .container-product .cards .card .card-body .harga {
+  display: flex;
+  justify-content: space-between;
+  color: var(--black);
+}
+
+.makanan {
+  width: 100%;
+}
+.makanan .cards {
+  width: 95% !important;
+  height: 350px;
+}
+.makanan .cards .card {
+  width: 100% !important;
+  height: 200px;
+}
+.makanan .cards .card .card-body h2 {
+  font-size: 50px;
+  margin-left: -30px;
+}
+
+main .Pilihan {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 880px;
+}
+
+main .Pilihan .card-pilihan{
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 50px;
+}
+.Pilihan .card-pilihan .cards-pilihan{
+  width: 637px;
+  height: 128px;
+  padding: 0px 0px;
+  margin: 0px 20px;
+  position: absolute;
+  box-sizing: border-box;
+  background: var(--white);
+  box-shadow: var(--black);
+  border-radius: 30px;
+}
+.Pilihan .card-pilihan .cards-pilihan .btn {
+  border: 0px;
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+  margin: 10px 10px;
+  justify-content: space-between;
+  color: var(--black);
+  background: var(--yellow); 
+  border-radius: 30px;
+}
+.Pilihan .Choise-body h3{
+  font-size: 15px;
+  align-items: center;
+}
+/*# sourceMappingURL=main.css.map */
